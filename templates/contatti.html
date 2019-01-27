@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load static %}
+
+<title>{% block head_title %}{{ block.super }} | Contatti{% endblock head_title %}</title>
+
+ {% block content %}
+
+    <h1>Contattaci alla mail:i</h1>
+    <h2>Mail: mia mail</h2>
+    <center><img src="{% static 'img/django_movie.jpg' %}"/></center>
+
+ {% endblock content %}
